@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- fontawesome starts -->
+<script src="https://kit.fontawesome.com/57c5287908.js" crossorigin="anonymous"></script>
+<link href='https://fonts.googleapis.com/css?family=Noto Sans' rel='stylesheet'>
+<!-- ends -->
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="info-slider.css">
+    <link rel="stylesheet" href="product-slider.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <section>
+      <div class="container=fluid">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="Assets/Rectangle 473.png" alt="" class="w-75 nav__img"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav mb-2 mb-lg-0 ">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">About</a>
+                        </li>
+                        <li class="nav-item d-flex justify-content-center">
+                           <select class="more-select" name="more" id="">
+                               <option value="">More</option>
+                               <option value="">More2</option>
+                           </select>
+                        </li>
+                    </ul>
+                    <img class="varal-logo" src="Assets/Rectangle 473.png" alt="" class="humburger__icon">
+                    <form class="nav__useraccount pt-3">
+  
+                                <a class="mx-2 text-decoration-none" href=""><img src="Assets/search 1.png" alt="">
+                                    </a>
+                                    <a class="mx-2 text-decoration-none" href=""><img src="Assets/cart.png" alt="">
+                                    </a>
+                                    <a class="mx-2 text-decoration-none" href=""><img src="Assets/fav.png" alt="">
+                                    </a>
+                                  <img src="Assets/profile.png" alt="" class="profile-img">
+                                  <a class="px-1"></a>
+            <div class="dropdown ">
+              <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton"
+               data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">one</a>
+                <a class="dropdown-item" href="#">two</a>
+                <a class="dropdown-item" href="#">three</a>
+              </div>
+            </div>
+                  </div>
+                    </form>
+                </div>
+        </nav>
+      </div>
+  </section>
+    <section>
+      <div class="container">
+        <div class="row main-row">
+          <div class="col-6 d-flex align-items-center ">
+            <div class="d-flex flex-column ">
+              <h2 class="main-title">Wanted to setup a company In UAE ?</h2>
+              <span class="main-span"
+                >What are you waiting for ! Get your business licenseing &
+                multiple Business Activites with Us at your fingertips</span
+              >
+              <span class="main-detail">
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.
+              </span>
+              <a
+                href="#"
+                class="main-btn d-flex justify-content-center align-items-center"
+                >Explore<i class="bi bi-arrow-right explore-icon"></i></a
+              >
+            </div>
+          </div>
+          <div class="col-6">
+            <div>
+              <img src="assets/images/business setup 2.png" class="banner-img" alt="" srcset="">
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex stat-row">
+            <div class="stat-div">
+                <span class="stat">700+</span>
+                <p class="stat-p">Satisfied customers</p>
+            </div>
+            <div class="stat-div stat-c">
+              <span class="stat">300+</span>
+              <p class="stat-p">Online users</p>
+          </div>
+          <div class="stat-div">
+            <span class="stat">70</span>
+            <p class="stat-p">Orders Shipped</p>
+        </div>
+        </div>
+      </div>
+    </section>
+    <!-- product slider starts -->
+    <section id="team">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+            <div class="sec-heading text-center">
+              <p>Our Products</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-box">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="team-slider owl-carousel">
+                <div class="product-box text-center">
+                  <div class="img-area"><img alt="" class="img-fluid move-animation" src="assets/HABOT TEAM-01 1.png"></div>
+                </div>
+                <div class="product-box text-center">
+                  <div class="img-area"><img alt="" class="img-fluid move-animation" src="assets/HABOT TEAM-03 1.png"></div>
+                </div>
+                <div class="product-box text-center">
+                  <div class="img-area"><img alt="" class="img-fluid move-animation" src="assets/HABOT TEAM-02 1.png"></div>
+                </div>
+                <div class="product-box text-center">
+                  <div class="img-area"><img alt="" class="img-fluid move-animation" src="assets/HABOT TEAM-01 1.png"></div>
+                
+                </div>
+                <div class="product-box text-center">
+                  <div class="img-area"><img alt="" class="img-fluid move-animation" src="assets/HABOT TEAM-03 1.png"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <!-- ends -->
+   <!-- Request service -->
+   <section class="request__section">
+     <div class="text-center ">
+       <h2 class="req-title">Request Service</h2>
+     </div>
+    <div class="container">
+      <div class="row main-row">
+        <div class="col-6">
+          <div class="req-img">
+            <img src="assets/images/req.png" class="banner-img" alt="" srcset="">
+          </div>
+        </div>
+        <div class="col-6 d-flex align-items-center ">
+          <div class="d-flex flex-column align-items-center ">
+            <h2 class="main-title req-subtitle">Looking for a new service ?</h2>
+            <span class="req-span"
+              >Tap on the button below to raise the request</span
+            >
+            <span class="req-detail">
+              Raise a request with the name of the service requred we will get back to you
+            </span>
+            <a
+              href="#"
+              class="main-btn d-flex justify-content-center align-items-center " style="padding: 0 26px;"
+              >Request<i class="bi bi-arrow-right explore-icon"></i></a
+            >
+          </div>
+        </div>
+        
+      </div>
+  
+    </div>
+    <!-- info slider starts -->
+    <section id="team">
+      <div class="container">
+        <div class="info-slider-title">
+          <p class="testimonial__para"> What Our Users Say About Us </p>
+        </div>
+      </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="info-slider owl-carousel">
+                <div class="single-box text-center">
+                  <div class="info-area">
+                    <p>"My experience with varal Was excellent. The staff who work there are very knowledgeable about each and everything and especially Ronie was very helpful throughout. 
+                      I would definitely recommend Varal for any one who’s thinking to
+                       establish there base in UAE." <span>-Amith Reddy</span>
+                    </p>
+                  </div>
+                </div>
+                <div class="single-box text-center">
+                  
+                  <div class="info-area">
+                    <p>"The services and consultancy they provide are top notch. 
+                      No issues at all whatsoever.Special thanks to Mr Royston Furtado" <span>-Anu Sm</span></p>
+                  </div>
+                </div>
+                <div class="single-box text-center">
+                  
+                  <div class="info-area">
+                    <p>"My experience with varal Was excellent. 
+                      The staff who work there are very knowledgeable about
+                       each and everything and especially Ronie was very helpful throughout.
+                       I would definitely recommend Varal for any one who’s 
+                       thinking to establish there base in UAE." <span>-Amith Reddy</span></p>
+                  </div>
+                </div>
+                <div class="single-box text-center">
+                  
+                  <div class="info-area">
+                    <p>"My experience with varal Was excellent. 
+                      The staff who work there are very knowledgeable about
+                       each and everything and especially Ronie was very helpful throughout.
+                       I would definitely recommend Varal for any one who’s 
+                       thinking to establish there base in UAE." <span>-Amith Reddy</span></p>
+                  </div>
+                </div>
+                <div class="single-box text-center">
+                  
+                  <div class="info-area">
+                    <p>"My experience with varal Was excellent. 
+                      The staff who work there are very knowledgeable about
+                       each and everything and especially Ronie was very helpful throughout.
+                       I would definitely recommend Varal for any one who’s 
+                       thinking to establish there base in UAE." <span>-Amith Reddy</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    
+    <!--  ends-->
+  </section>
+    <section class="footer">
+      <footer class="footer-tag">
+        <div class="d-flex flex-column align-items-center justify-content-center">
+          <span class="footer-span">Follow our Social media</span>
+          <div>
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-linkedin"></i>
+            <i class="bi bi-twitter"></i>
+            <i class="bi bi-instagram"></i>
+          </div>
+        </div>
+        <div class="d-flex align-items-center justify-content-center">
+          <img src="assets/images/100.png" alt="" srcset="" style="height: 159px;
+          width: auto;">
+        </div>
+        <div class="d-flex flex-column align-items-center justify-content-center">
+          <span class="footer-span">Quick links</span>
+          <div class="d-flex flex-column text-center">
+            <a href="#" class="quick-link">Our team</a>
+          <a href="#"  class="quick-link">About us</a>
+          <a href="#"  class="quick-link">Terms & Conditions</a>
+          </div>
+        </div>
+      </footer>
+    </section>
+    <!-- js files -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+    </script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+    </script> 
+	<script>
+	       $('.info-slider').owlCarousel({
+	           loop: true,            
+	           nav: false,
+	           autoplay: true,
+	           autoplayTimeout: 5000,
+	           smartSpeed: 450,
+	           margin: 20,
+	           responsive: {
+	               0: {
+	                   items: 1
+	               },
+	               768: {
+	                   items: 2
+	               },
+	               991: {
+	                   items: 3
+	               },
+	               1200: {
+	                   items: 3
+	               },
+	               1920: {
+	                   items: 3
+	               }
+	           }
+	       });
+	</script>
+  	<script>
+      $('.team-slider').owlCarousel({
+          loop: true,            
+          nav: false,
+          autoplay: true,
+          autoplayTimeout: 5000,
+          smartSpeed: 450,
+          margin: 20,
+          responsive: {
+              0: {
+                  items: 1
+              },
+              768: {
+                  items: 2
+              },
+              991: {
+                  items: 3
+              },
+              1200: {
+                  items: 3
+              },
+              1920: {
+                  items: 3
+              }
+          }
+      });
+</script>
+
+  </body>
+</html>

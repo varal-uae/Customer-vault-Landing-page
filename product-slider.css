@@ -1,0 +1,45 @@
+#team {
+	padding: 30px 0;
+}
+.sec-heading p {
+
+	font-family: Noto Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 29px;
+	line-height: 49px;
+	text-align: center;
+	
+	color: #EB5108;
+	
+}
+
+
+.img-area {
+	overflow: hidden;
+	padding: 15px 0 15px;
+}
+.img-area img {
+	margin: 0 auto;
+	width: 340px;
+	height: 299px;
+}
+.team-slider .owl-dots {
+	position: absolute;
+	left: 0;
+	right: 0;
+	text-align: center;
+	width: 100%;
+}
+.team-slider button.owl-dot {
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	margin: 0 6px;
+	text-align: center;
+	border-radius: 50%;
+	background-color: rgba(236, 80, 8, 0.34) !important;
+}
+.team-slider .owl-dot.active {
+	background-color: coral !important;
+}
