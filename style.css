@@ -35,6 +35,9 @@ max-width: 80%;
     margin-left: 10px;
     font-size: 26px;
 }
+.nav-drop{
+    left: -122px !important;
+}
 .main-btn{
     background: linear-gradient(90deg, #DE3309 -21.63%, #E06907 56.59%, #F7350A 129.49%);
 
