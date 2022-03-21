@@ -44,6 +44,10 @@ max-width: 80%;
 .nav__icon{
     padding: 0 20px !important;
 }
+.cart__count{
+    margin-left: 17px;
+    margin-top: 11px;
+}
 .main-btn{
     background: linear-gradient(90deg, #DE3309 -21.63%, #E06907 56.59%, #F7350A 129.49%);
 
