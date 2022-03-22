@@ -45,13 +45,17 @@
                 <a class="nav-link nav__links " href="#">Contact us</a>
               </li>
               <li class="nav-item d-flex justify-content-center">
-                <select class="more-select text-center" name="more" id="">
-                  <option value="">More</option>
-                  <option value="">Services Requested</option>
-                  <option value="">Services Applied</option>
-                  <option value="">About us</option>
-                  <option value="">FAQ</option>
-                </select>
+                <div class="dropdown nav__drop">
+                  <button class="btn btn-secondary nav__more dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    More
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#">Services Requested</a></li>
+                    <li><a class="dropdown-item" href="#">Services Applied</a></li>
+                    <li><a class="dropdown-item" href="#">About Us</a></li>
+                    <li><a class="dropdown-item" href="#">FAQ</a></li>
+                  </ul>
+                </div>
               </li>
             </ul>
             <img class="varal-logo" src="Assets/Rectangle 473.png" alt="" class="humburger__icon">
